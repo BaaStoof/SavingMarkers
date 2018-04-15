@@ -1,0 +1,117 @@
+
+html, body{
+       
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%) ;
+    margin: 0 auto ;
+    padding: 0 ;
+}
+.btn-outline-success{
+    border : 1px white solid ;
+    color: white ;
+} 
+.btn-outline-success:hover, .btn-outline-success:active, .btn-outline-success:visited {
+    background-color: #40d67f ;
+}
+
+.row {
+    margin-top: 80px ;
+}
+
+/* .row .map {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color : #ffffff ;
+    border-radius: 9px;
+    border: 1px solid #fffff ;
+    box-shadow: 1px 1px 8px rgba(99, 99, 99,0.4), -1px -1px 8px rgba(99, 99, 99,0.4);
+} */
+
+.form-control{
+    color: rgb(0, 65, 65) ;
+    font-weight: 700 ;
+}
+
+
+#floating-panel {
+    padding : 1px;
+    text-align : center ;
+    
+}
+#floating-panel strong {
+    color: rgb(5, 4, 77) ;
+}
+.inputLatLng {
+    margin-top: 2px ;
+    margin-left : 5px ;
+    border : none ;
+    box-shadow : 1px 1px 8px rgba(99 , 99 , 99 , 0.3), -1px -1px 8px rgba(99 , 99 , 99 , 0.3) ;
+    border-radius: 3px ;
+    background-color : #ececec;
+    text-align : center ;
+}
+
+.map-responsive-allClt{
+    margin-top : 16px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    overflow:hidden;
+    padding-bottom:41.25%;
+    position:relative;
+    height:0;
+    box-shadow: 1px 1px 8px rgba(99, 99, 99,0.4), -1px -1px 8px rgba(99, 99, 99,0.4);
+}
+
+.map-responsive{
+    margin-top : 16px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    overflow:hidden;
+    padding-bottom:61.25%;
+    position:relative;
+    height:0;
+    box-shadow: 1px 1px 8px rgba(99, 99, 99,0.4), -1px -1px 8px rgba(99, 99, 99,0.4);
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    
+}
+
+.leftsidde {
+    position: fixed;
+    background-color: red;
+}
+
+.table-responsive-md {
+    margin-bottom: 20px ;
+}
+.form {
+    background-color: white ;
+    color :#05044b ; 
+    font-family: 'Open Sans', sans-serif;
+    padding-top :15px;
+    padding-bottom :10px;
+    border-radius: 9px ;
+    box-shadow: 1px 1px 8px rgba(99, 99, 99,0.3), -1px -1px 8px rgba(99, 99, 99,0.3);
+}
+
+
+footer {
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    border-top: 1px solid black ;
+    /* background-color: #72afd3 ; */
+    color: #05044b ;
+    padding-bottom: -4px ;
+    margin-top: 20px;
+    border-radius: 0;
+    text-align: center ;
+}
+
+footer p{
+    margin-top : 10px;
+}
